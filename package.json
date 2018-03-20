@@ -1,5 +1,5 @@
 {
-  "name": "sync",
+  "name": "@ya-wxapp-org/sync",
   "version": "0.0.1",
   "description": "wxapp sync",
   "repository": {
@@ -12,7 +12,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": " && echo 'no tests!'"
+    "test": "echo 'no tests!'"
   },
   "author": "fimars <foru.fy@gmail.com>",
   "license": "MIT",  "dependencies": {},
