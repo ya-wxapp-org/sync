@@ -1,21 +1,19 @@
 {
   "name": "@ya-wxapp-org/sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wxapp sync",
   "repository": {
     "url": "fimars/sync",
     "type": "git"
   },
   "main": "index.js",
-  
-  "files": [
-    "index.js"
-  ],
+
+  "files": ["index.js"],
   "scripts": {
     "test": "echo 'no tests!'"
   },
   "author": "fimars <foru.fy@gmail.com>",
-  "license": "MIT",  "dependencies": {},
-  "devDependencies": {
-  }
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }

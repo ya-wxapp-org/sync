@@ -29,9 +29,9 @@ function getter(key, isJson) {
 
 function setter(key, isJson) {
   return function(val) {
+    Sync.cache[key] = val;
     if (isJson) val = JSON.stringify(val);
     wx.setStorageSync(prefix(key), val);
-    Sync.cache[key] = val;
   };
 }
 
