@@ -43,6 +43,7 @@ function prop(key, isJson) {
 }
 
 export function register(key, isJson = false) {
+  if (~Sync.registers.indexOf(key)) return;
   Sync.registers.push(key);
   Object.defineProperty(Sync, key, prop(key, isJson));
 }
